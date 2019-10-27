@@ -17,7 +17,7 @@ See https://medium.com/@david.gagne/set-up-a-custom-domain-for-your-heroku-appli
 There a couple different ways of deploying Heroku. By logging into heroku.com, clicking on your application, and changing to the deploy tab, different deployment options are presented:
 
 <img src="heroku-deployment.png">
-<p> Figure 1: Deployment options available for a Heroku app </p>
+<p align="center"> Figure 1: Deployment options available for a Heroku app </p>
 
 I used the Heroku CLI. 
 ```
