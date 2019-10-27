@@ -5,8 +5,11 @@ Heroku is a platform as a service (PaaS) that enables developers to deploy, mana
 
 ## How do I set up Heroku?
 One way to do so is via the Heroku CLI.
+
 ` $brew tap heroku/brew && brew install heroku `
+
 ` $heroku login ` (create an account first from www.heroku.com)
+
 Run this command from your app’s root directory ` $heroku create ` (the empty Heroku Git repository is automatically set as a remote for your local repository)
 
 ## How do I connect my custom domain name (for example from Google Domains) to my Heroku app?
