@@ -21,12 +21,11 @@ There a couple different ways of deploying Heroku. By logging into heroku.com, c
 
 <img src="heroku-deployment.png">
 <p align="center"> <i> Figure 1: Deployment options available for a Heroku app </i> </p>
-I used the Heroku CLI. 
+I used the Heroku CLI. From your app's root directory:
 
 ```
 $ heroku login
-$ heroku git:clone -a <your-heroku-app-name>
-$ cd <your-heroku-app-name>
+$ heroku git:remote -a appname
 ```
 
 Extra steps for your Angular application include:
