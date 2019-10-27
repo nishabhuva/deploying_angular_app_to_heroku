@@ -17,7 +17,7 @@ See https://medium.com/@david.gagne/set-up-a-custom-domain-for-your-heroku-appli
 There a couple different ways of deploying Heroku. By logging into heroku.com, clicking on your application, and changing to the deploy tab, different deployment options are presented:
 
 <img src="heroku-deployment.png">
-<i align="center"> Figure 1: Deployment options available for a Heroku app </i>
+<p align="center"> <i> Figure 1: Deployment options available for a Heroku app </i> </p>
 I used the Heroku CLI. 
 ```
 $ heroku login
@@ -76,5 +76,5 @@ Following a successful deployment, your app should be built. In the Heroku CLI, 
 
 ## Sources
 * https://itnext.io/how-to-deploy-angular-application-to-heroku-1d56e09c5147
-* heroku.com
+* www.heroku.com
 * https://medium.com/@david.gagne/set-up-a-custom-domain-for-your-heroku-application-using-google-domains-guaranteed-a2b2ff934f97
